@@ -1,0 +1,41 @@
+html, body {
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+
+.slideshow-container {
+  width: fit-content;
+}
+
+slideshow-renderer {
+  display: block;
+  width: fit-content;
+}
+
+.slideshow-nav {
+  position: absolute;
+  z-index: 10;
+  top: 50%;
+  transform: translate(0px, -50%);
+}
+
+.slideshow-nav button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  background: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.slideshow-prev {
+  left: 0px;
+}
+
+.slideshow-next {
+  right: 0px;
+}

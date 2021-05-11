@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="slideshow.css" />
+    <script src="slideshow-renderer.js"></script>
+  </head>
+  <body>
+    <div class="slideshow-container">
+      <slideshow-renderer></slideshow-renderer>
+      <div class="slideshow-prev slideshow-nav">
+        <button onclick="Slide('prev');">
+          <svg viewBox="0 0 494 494" style="transform: rotateZ(90deg)rotateY(35deg); padding: 0px 2px; height: 50px; width: 50px;"><path style="stroke-width: 40; fill: white;" d="M 247.00,387.80 C 238.15,387.80 229.29,384.42 222.54,377.67 222.54,377.67 10.13,165.26 10.13,165.26 -3.38,151.75 -3.38,129.84 10.13,116.33 23.64,102.83 45.54,102.83 59.06,116.33 59.06,116.33 247.00,304.29 247.00,304.29 247.00,304.29 434.94,116.34 434.94,116.34 448.45,102.83 470.36,102.83 483.86,116.34 497.38,129.85 497.38,151.75 483.86,165.27 483.86,165.27 271.46,377.68 271.46,377.68 264.70,384.42 255.85,387.80 247.00,387.80 Z"/></svg>
+        </button>
+      </div>
+      <div class="slideshow-next slideshow-nav">
+        <button onclick="Slide('next');">
+          <svg viewBox="0 0 494 494" style="transform: rotateZ(-90deg)rotateY(35deg); padding: 0px 2px; height: 50px; width: 50px;"><path style="stroke-width: 40; fill: white;" d="M 247.00,387.80 C 238.15,387.80 229.29,384.42 222.54,377.67 222.54,377.67 10.13,165.26 10.13,165.26 -3.38,151.75 -3.38,129.84 10.13,116.33 23.64,102.83 45.54,102.83 59.06,116.33 59.06,116.33 247.00,304.29 247.00,304.29 247.00,304.29 434.94,116.34 434.94,116.34 448.45,102.83 470.36,102.83 483.86,116.34 497.38,129.85 497.38,151.75 483.86,165.27 483.86,165.27 271.46,377.68 271.46,377.68 264.70,384.42 255.85,387.80 247.00,387.80 Z"/></svg>
+        </button>
+      </div>
+    </div>
+    <script src="slideshow.js"></script>
+  </body>
+</html>
